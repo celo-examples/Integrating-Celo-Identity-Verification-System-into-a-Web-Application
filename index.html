@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celo Identity Verification</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        form {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        input[type="submit"] {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <h1>Celo Identity Verification</h1>
+    <form id="identity-verification-form">
+        <label for="phone-number">Phone Number:</label>
+        <input type="text" id="phone-number" required>
+        <br>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" required>
+        <br>
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" required>
+        <br>
+        <input type="submit" value="Verify Identity">
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
+```
+
+<!-- In this CSS, we have set a sans-serif font for the body, a light gray background color, and zeroed out the default margin and padding values.
+
+The `h1` element is centered on the page and has a top margin of 50 pixels.
+
+The form has a max width of 500 pixels, a margin of 50 pixels from the top and auto from the sides to center it on the page, padding of 20 pixels, a border of 1 pixel and radius of 5 pixels, a white background color, and a box shadow.
+
+The `label` elements have a bold font weight and margin bottom of 10 pixels.
+
+The input fields have a width of 100%, a padding of 10 pixels, a border of 1 pixel and radius of 5 pixels, and box-sizing of border-box to include the padding and border in the width calculation.
+
+The submit button has a block display, top margin of 20 pixels, padding of 10 pixels, green background color, white text color, no border, a radius of 5 pixels, and a pointer cursor. On hover, the background color changes to a darker shade of green. -->
