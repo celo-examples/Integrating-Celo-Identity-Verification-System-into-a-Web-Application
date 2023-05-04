@@ -1,0 +1,13 @@
+# Ignore Node.js build artifacts
+node_modules
+npm-debug.log
+
+# Ignore Celo account key file
+*.json
+
+# Ignore Celo private key file
+*.pem
+
+# Ignore compiled smart contract files
+*.abi
+*.bin
